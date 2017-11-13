@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_NAME">
+			<Text>Hittite Empire</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_DESCRIPTION">
+			<Text>Hittite Empire</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_ADJECTIVE">
+			<Text>Hittite</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME" >
+			<Text>Civilization trait</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_DESCRIPTION" >
+			<Text>Civilization trait Description</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_1">
+			<Text>Hattusa</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

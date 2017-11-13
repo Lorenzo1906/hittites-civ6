@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_LR_SUPPILULIUMA" Kind="KIND_LEADER" />
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
+			<Name>LOC_LEADER_LR_SUPPILULIUMA_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+</GameData>

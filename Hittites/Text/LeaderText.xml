@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_LEADER_LR_SUPPILULIUMA_NAME">
+			<Text>Suppiluliuma I</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME">
+			<Text>Leader Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION">
+			<Text>Leader Trait Description</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

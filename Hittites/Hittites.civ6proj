@@ -17,12 +17,39 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Hittites</AssemblyName>
     <RootNamespace>Hittites</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="ConfigIcons" /><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles" /></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Config.xml</File><File>Data/Leader.xml</File><File>Data/Civ.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="Icons" /><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles" /></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="Data" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+    <Folder Include="Text" />
+    <Folder Include="SQL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Civ.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\CivText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\LeaderText.xml">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
