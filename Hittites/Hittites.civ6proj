@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>Hittites</Name>
-    <Guid>ad35219d-89c7-414e-b6f1-866673dd1c42</Guid>
-    <ProjectGuid>47284f2c-2d2c-4b18-9a0b-e277f174dd55</ProjectGuid>
+    <Guid>8841c8dc-b60c-4145-8b73-95a3e5c6644e</Guid>
+    <ProjectGuid>476bfd49-ec4e-4c79-b4e0-003b0c19009a</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>dizzy llama</Teaser>
-    <Description>dizzy llama</Description>
+    <Teaser>Hittites</Teaser>
+    <Description>Hittites</Description>
     <Authors>DizzyLlama</Authors>
     <SpecialThanks>
     </SpecialThanks>
@@ -15,8 +15,8 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <AssemblyName>EmptyMod1</AssemblyName>
-    <RootNamespace>EmptyMod1</RootNamespace>
+    <AssemblyName>Hittites</AssemblyName>
+    <RootNamespace>Hittites</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

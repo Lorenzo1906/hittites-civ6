@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # ModBuddy Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "EmptyMod1", "EmptyMod1\EmptyMod1.civ6proj", "{47284F2C-2D2C-4B18-9A0B-E277F174DD55}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Hittites", "Hittites\Hittites.civ6proj", "{476BFD49-EC4E-4C79-B4E0-003B0C19009A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Civ6 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47284F2C-2D2C-4B18-9A0B-E277F174DD55}.Default|Civ6.ActiveCfg = Default|Civ6
-		{47284F2C-2D2C-4B18-9A0B-E277F174DD55}.Default|Civ6.Build.0 = Default|Civ6
+		{476BFD49-EC4E-4C79-B4E0-003B0C19009A}.Default|Civ6.ActiveCfg = Default|Civ6
+		{476BFD49-EC4E-4C79-B4E0-003B0C19009A}.Default|Civ6.Build.0 = Default|Civ6
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
