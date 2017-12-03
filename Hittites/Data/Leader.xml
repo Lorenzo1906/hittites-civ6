@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_LR_SUPPILULIUMA" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_AGENDA_LR_SUPPILULIUMA" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -11,4 +12,83 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_LR_SUPPILULIUMA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_LEADER_LR_SUPPILULIUMA_QUOTE"/>
+	</LeaderQuotes>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_LR_SUPPILULIUMA" ForegroundImage="MoraPorrasForeground.dds" EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_LR_SUPPILULIUMA" BackgroundImage="DiplomacyBackground.dds"/>
+	</DiplomacyInfo>
+
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_LR_SUPPILULIUMA" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_LR_SUPPILULIUMA" Name="LOC_AGENDA_LR_SUPPILULIUMA_NAME" Description="LOC_AGENDA_LR_SUPPILULIUMA_DESCRIPTION"/>
+	</Agendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_LR_SUPPILULIUMA" TraitType="TRAIT_AGENDA_LR_SUPPILULIUMA"/>
+	</AgendaTraits>
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_AGENDA_LR_SUPPILULIUMA</TraitType>
+			<ModifierId>AGENDA_HIGH_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_LR_SUPPILULIUMA</TraitType>
+			<ModifierId>AGENDA_LOW_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_LR_SUPPILULIUMA</TraitType>
+			<ModifierId>AGENDA_HIGH_STANDING_ARMY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_LR_SUPPILULIUMA</TraitType>
+			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<AiLists>
+		<Row ListType="ScienceLoverSciencePreference" AgendaType="TRAIT_AGENDA_LR_SUPPILULIUMA" System="Yields"/>
+	</AiLists>
+		
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_LR_SUPPILULIUMA" AgendaType="AGENDA_LR_SUPPILULIUMA"/>
+	</HistoricalAgendas>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_LR_SUPPILULIUMA" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_LR_SUPPILULIUMA" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_LR_SUPPILULIUMA" AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_LR_SUPPILULIUMA" AgendaTwo="AGENDA_CITY_STATE_ALLY"/>
+	</ExclusiveAgendas>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LR_SUPPILULIUMA_PRIMARY</Type>
+			<Color>0,128,128,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LR_SUPPILULIUMA_SECONDARY</Type>
+			<Color>176,119,0,255</Color>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_LR_SUPPILULIUMA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LR_SUPPILULIUMA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LR_SUPPILULIUMA_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
 </GameData>
