@@ -16,6 +16,12 @@
 		<Row Tag="LOC_AGENDA_LR_SUPPILULIUMA_DESCRIPTION">
 			<Text>Likes civilizations with high science and a big standing army. Dislikes civilizations with low science or small standing army.</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME">
+			<Text>The New Kingdom</Text>
+		</Row>
+		<Row Tag="LOCTRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION">
+			<Text>Grants a free meelee unit every time a city is founded. Also, the encampment district's buildings also produce bonus science</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LEADER_LR_SUPPILULIUMA_QUOTE">
 			<Text>And upon his death, he was believed to become a God. In order for the King to show his power and he has the favor of the Gods, he must win battles. And the Great King win battles, the lesser kings continued to honor their pledge of allegiance</Text>
 		</Row>

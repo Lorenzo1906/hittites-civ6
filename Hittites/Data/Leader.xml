@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="LEADER_LR_SUPPILULIUMA" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_AGENDA_LR_SUPPILULIUMA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_LR_SUPPILULIUMA" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -27,6 +28,7 @@
 
 	<Traits>
 		<Row TraitType="TRAIT_AGENDA_LR_SUPPILULIUMA" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_LEADER_LR_SUPPILULIUMA" Name="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME" Description="LOCTRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION"/>
 	</Traits>
 
 	<Agendas>
@@ -54,7 +56,27 @@
 			<TraitType>TRAIT_AGENDA_LR_SUPPILULIUMA</TraitType>
 			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LR_SUPPILULIUMA</TraitType>
+			<ModifierId>TRAIT_LR_SUPPILULIUMA_FREE_MELEE_UNIT</ModifierId>
+		</Row>
 	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LR_SUPPILULIUMA_FREE_MELEE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<Permanent>1</Permanent>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LR_SUPPILULIUMA_FREE_MELEE_UNIT</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+	</ModifierArguments>
 
 	<AiLists>
 		<Row ListType="ScienceLoverSciencePreference" AgendaType="TRAIT_AGENDA_LR_SUPPILULIUMA" System="Yields"/>
