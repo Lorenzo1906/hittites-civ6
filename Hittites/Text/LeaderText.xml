@@ -4,12 +4,6 @@
 		<Row Tag="LOC_LEADER_LR_SUPPILULIUMA_NAME">
 			<Text>Suppiluliuma I</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME">
-			<Text>The Great King</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION">
-			<Text>Leader Trait Description</Text>
-		</Row>
 		<Row Tag="LOC_AGENDA_LR_SUPPILULIUMA_NAME">
 			<Text>The Son Of Tudhaliya II</Text>
 		</Row>
@@ -19,7 +13,7 @@
 		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME">
 			<Text>The New Kingdom</Text>
 		</Row>
-		<Row Tag="LOCTRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION">
+		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION">
 			<Text>Grants a free meelee unit every time a city is founded. Also, the encampment district's buildings also produce bonus science</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LEADER_LR_SUPPILULIUMA_QUOTE">

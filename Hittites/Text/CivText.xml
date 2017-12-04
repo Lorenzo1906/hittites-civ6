@@ -21,8 +21,120 @@
 			<Text>Civilization trait Description</Text>
 		</Row>
 
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_1">
+			<Text>Labarna</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_2">
+			<Text>Hattusili</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_3">
+			<Text>Mursili</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_4">
+			<Text>Hantili</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_5">
+			<Text>Zidanta</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_6">
+			<Text>Ammuna</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_7">
+			<Text>Huzziya</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_8">
+			<Text>Telipinus</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_9">
+			<Text>Alluwamna</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_10">
+			<Text>Tahurwaili</Text>
+		</Row>
+
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_1">
 			<Text>Hattusa</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_2">
+			<Text>Tarsus</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_3">
+			<Text>Ugarit</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_4">
+			<Text>Harran</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_5">
+			<Text>Hattusha</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_6">
+			<Text>Tyrana</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_7">
+			<Text>Aleppo</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_8">
+			<Text>Ankuwa</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_9">
+			<Text>Kadesh</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_10">
+			<Text>Adana</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_11">
+			<Text>Hubishna</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_12">
+			<Text>Alaca Huyuk</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_13">
+			<Text>Emar</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_14">
+			<Text>Alalah</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_15">
+			<Text>Ivriz</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_16">
+			<Text>Kanesh</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_18">
+			<Text>Karhuyuk</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_19">
+			<Text>Karatepe</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_20">
+			<Text>Kummanni</Text>
 		</Row>
 	</BaseGameText>
 </GameData>
