@@ -26,6 +26,10 @@
 		<Row Type="LEADER_LR_SUPPILULIUMA" BackgroundImage="DiplomacyBackground.dds"/>
 	</DiplomacyInfo>
 
+	<LeaderTraits>
+		<Row LeaderType="LEADER_LR_SUPPILULIUMA" TraitType="TRAIT_LEADER_LR_SUPPILULIUMA"/>
+	</LeaderTraits>
+	
 	<Traits>
 		<Row TraitType="TRAIT_AGENDA_LR_SUPPILULIUMA" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
 		<Row TraitType="TRAIT_LEADER_LR_SUPPILULIUMA" Name="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME" Description="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION"/>

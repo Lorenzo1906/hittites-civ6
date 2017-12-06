@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="CIVILIZATION_LR_HITTITES" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_LR_HITTITES" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Civilizations>
@@ -16,6 +17,39 @@
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_LR_HITTITES" LeaderType="LEADER_LR_SUPPILULIUMA" CapitalName="LOC_CIVILIZATION_LR_HITTITES_CITY_1" />
 	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES" TraitType="TRAIT_CIVILIZATION_LR_HITTITES"/>
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_LR_HITTITES" Name="LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME" Description="LOC_TRAIT_CIVILIZATION_LR_HITTITES_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LR_HITTITES</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT" Name="GovernmentSlotType" Type="ARGTYPE_IDENTITY" Value="SLOT_ECONOMIC"/>
+	</ModifierArguments>
+	
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_LR_HITTITES_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_LR_HITTITES_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_LR_HITTITES_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_LR_HITTITES_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
 
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_LR_HITTITES" CitizenName="LOC_CITIZEN_LR_HITTITES_MALE_1" Female="0"/>

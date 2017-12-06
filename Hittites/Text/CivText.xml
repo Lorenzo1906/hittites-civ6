@@ -14,11 +14,27 @@
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME" >
-			<Text>Civilization trait</Text>
+			<Text>The Great King</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_DESCRIPTION" >
-			<Text>Civilization trait Description</Text>
+			<Text>Grants an additional Economic policy slot in any government.</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_LOCATION" >
+			<Text>North-central Anatolia</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_SIZE" >
+			<Text>Approximately the size of Turkey, Syria and Lebanon</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_POPULATION" >
+			<Text>Unknown</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_CAPITAL" >
+			<Text>Hattusa</Text>
 		</Row>
 
 		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_1">
