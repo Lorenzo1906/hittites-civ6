@@ -23,9 +23,9 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LR_HITTITES</CivilizationType>
 			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
-			<Type>UNIT_DIGGER</Type>
-			<Name>LOC_UNIT_DIGGER_NAME</Name>
-			<Description>LOC_UNIT_DIGGER_DESCRIPTION</Description>
+			<Type>UNIT_LR_THREE_MAN_CHARIOT</Type>
+			<Name>LOC_UNIT_LR_HITTITES_UNIT_NAME</Name>
+			<Description>LOC_UNIT_LR_HITTITES_UNIT_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_DIGGER</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>

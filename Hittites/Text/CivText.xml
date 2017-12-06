@@ -21,6 +21,18 @@
 			<Text>Grants an additional Economic policy slot in any government.</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_LR_HITTITES_UNIT_NAME" >
+			<Text>Three-Man Chariot</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LR_HITTITES_UNIT_DESCRIPTION" >
+			<Text>Hittite unique Ancient era melee unit. Is faster and stronger than the Heavy Chariot that replaces.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LR_THREE_MAN_CHARIOT_CHAPTER_HISTORY_PARA_1">
+			<Text>The Hittite arm of decision was its chariotry. The chariot’s role was to close quickly with the enemy infantry, delivering maximum shock, then to dismount and fight as heavy infantry. The Hittite machine was heavier than the Egyptian chariot and had its axle positioned in the center of the carrying platform. This arrangement reduced speed and stability but made it possible for the machine to carry a crew of three. The crew was armed with the six-foot-long stabbing spear designed not to be thrown but to be used as a lance while mounted and as an infantry weapon when dismounted. The Hittites used their chariots as mounted heavy infantry, and they were the key to the success of the Hittite army fighting in open terrain.</Text>
+		</Row>
+		
 		<Row Tag="LOC_CIVINFO_LR_HITTITES_LOCATION" >
 			<Text>North-central Anatolia</Text>
 		</Row>

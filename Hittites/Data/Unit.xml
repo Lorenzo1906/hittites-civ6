@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_LR_THREE_MAN_CHARIOT" Kind="KIND_UNIT"/>
+	</Types>
+
+	<Units>
+		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT"
+			 BaseMoves="3"
+			 Cost="90"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="2"
+			 ZoneOfControl="true"
+			 CanCapture="true"
+			 CanRetreatWhenCaptured="false"
+			 PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			 InitialLevel="1"
+			 PrereqTech="TECH_THE_WHEEL"
+			 Domain="DOMAIN_LAND"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_LR_HITTITES_UNIT_NAME"
+			 Description="LOC_UNIT_LR_HITTITES_UNIT_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"
+			 Maintenance="1"
+			 Combat="30"
+			 MandatoryObsoleteTech="TECH_COMBUSTION"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_LR_THREE_MAN_CHARIOT"/>
+	</Units>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LR_THREE_MAN_CHARIOT" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+	</UnitReplaces>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_LR_THREE_MAN_CHARIOT" UpgradeUnit="UNIT_KNIGHT"/>
+	</UnitUpgrades>
+	
+	<TypeTags>
+		<Row Type="UNIT_LR_THREE_MAN_CHARIOT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_LR_THREE_MAN_CHARIOT" Tag="CLASS_HEAVY_CHARIOT"/>
+	</TypeTags>
+</GameData>

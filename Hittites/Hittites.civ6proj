@@ -18,7 +18,7 @@
     <AssemblyName>Hittites</AssemblyName>
     <RootNamespace>Hittites</RootNamespace>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="ConfigIcons" /><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles" /></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Config.xml</File><File>Data/Leader.xml</File><File>Data/Civ.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="Icons" /><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles" /></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Config.xml</File><File>Data/Leader.xml</File><File>Data/Civ.xml</File><File>Data/Unit.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="Icons" /><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles" /></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -42,6 +42,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Unit.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\CivText.xml">
