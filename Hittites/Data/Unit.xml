@@ -2,6 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_LR_THREE_MAN_CHARIOT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_LR_LAHHA" Kind="KIND_UNIT"/>
 	</Types>
 
 	<Units>
@@ -25,6 +26,25 @@
 			 Combat="30"
 			 MandatoryObsoleteTech="TECH_COMBUSTION"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_LR_THREE_MAN_CHARIOT"/>
+		<Row UnitType="UNIT_LR_LAHHA" 
+			 BaseMoves="2" 
+			 Cost="40" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 BaseSightRange="2" 
+			 ZoneOfControl="false" 
+			 Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_CIVILIAN" 
+			 Name="LOC_UNIT_LR_HITTITES_LAHHA_UNIT_NAME" 
+			 Description="LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION" 
+			 CanCapture="False" 
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" 
+			 CostProgressionParam1="400" 
+			 PurchaseYield="YIELD_GOLD" 
+			 PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" 
+			 IgnoreMoves="true" 
+			 MakeTradeRoute="true" 
+			 PrereqCivic="CIVIC_FOREIGN_TRADE"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_LR_LAHHA"/>
 	</Units>
 
 	<UnitAiInfos>
@@ -32,10 +52,16 @@
 		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_LR_THREE_MAN_CHARIOT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_LR_LAHHA" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_LR_LAHHA" AiType="UNITTYPE_TRADE"/>
 	</UnitAiInfos>
 
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_LR_THREE_MAN_CHARIOT" ReplacesUnitType="UNIT_HEAVY_CHARIOT"/>
+	</UnitReplaces>
+	
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LR_LAHHA" ReplacesUnitType="UNIT_TRADER"/>
 	</UnitReplaces>
 
 	<UnitUpgrades>
@@ -45,5 +71,7 @@
 	<TypeTags>
 		<Row Type="UNIT_LR_THREE_MAN_CHARIOT" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_LR_THREE_MAN_CHARIOT" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_LR_LAHHA" Tag="CLASS_TRADER"/>
+		<Row Type="UNIT_LR_LAHHA" Tag="CLASS_LANDCIVILIAN"/>
 	</TypeTags>
 </GameData>

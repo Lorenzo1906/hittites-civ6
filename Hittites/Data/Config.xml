@@ -33,9 +33,9 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LR_HITTITES</CivilizationType>
 			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
-			<Type>IMPROVEMENT_OUTBACK_STATION</Type>
-			<Name>LOC_IMPROVEMENT_OUTBACK_STATION_NAME</Name>
-			<Description>LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION</Description>
+			<Type>UNIT_LR_LAHHA</Type>
+			<Name>LOC_UNIT_LR_HITTITES_LAHHA_UNIT_NAME</Name>
+			<Description>LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_OUTBACK_STATION</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>

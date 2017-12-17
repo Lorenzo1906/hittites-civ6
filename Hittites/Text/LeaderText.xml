@@ -4,20 +4,181 @@
 		<Row Tag="LOC_LEADER_LR_SUPPILULIUMA_NAME">
 			<Text>Suppiluliuma I</Text>
 		</Row>
+		
 		<Row Tag="LOC_AGENDA_LR_SUPPILULIUMA_NAME">
 			<Text>The Son Of Tudhaliya II</Text>
 		</Row>
+		
 		<Row Tag="LOC_AGENDA_LR_SUPPILULIUMA_DESCRIPTION">
 			<Text>Likes civilizations with high science and a big standing army. Dislikes civilizations with low science or small standing army.</Text>
 		</Row>
+		
 		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME">
 			<Text>The New Kingdom</Text>
 		</Row>
+		
 		<Row Tag="LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION">
-			<Text>Grants a free meelee unit every time a city is founded. Also, the encampment district's buildings also produce bonus science</Text>
+			<Text>Grants a free meelee unit every time a city is founded. </Text>
 		</Row>
+		
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LEADER_LR_SUPPILULIUMA_QUOTE">
 			<Text>And upon his death, he was believed to become a God. In order for the King to show his power and he has the favor of the Gods, he must win battles. And the Great King win battles, the lesser kings continued to honor their pledge of allegiance</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LR_SUPPILULIUMA_CHAPTER_HISTORY_PARA_1">
+			<Text>Suppiluliuma I or Suppiluliumas I was king of the Hittites (r. c. 1344–1322 BC (short chronology)). He achieved fame as a great warrior and statesman, successfully challenging the then-dominant Egyptian empire for control of the lands between the Mediterranean and the Euphrates.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LR_SUPPILULIUMA_CHAPTER_HISTORY_PARA_2">
+			<Text>Suppiluliuma was the son of Tudhaliya II and Queen Daduhepa. He began his career as the chief advisor and general to Tudhaliya II, then based at Samuha. In this capacity, he defeated the Hittites' enemies among the Azzi-Hayasa and the Kaskas. Both enemies then united around charismatic leaders to counter him; of these Karanni founded a semblance of a royal court in Hayasa, and Piyapili failed to do likewise for the Kaska. Suppiluliuma and Tudhaliya defeated these threats in turn, to the extent that the Hittite court could settle in Hattusa again. When Tudhaliya II died, Tudhaliya III succeeded to the throne. Soon after his accession, however, he was overthrown and succeeded by his younger brother Suppiluliuma. Some of the Hittite priests later reported this to Suppiluliumas's son, successor, and biographer Mursili II, holding it out as an outstanding crime of the whole dynasty.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LR_SUPPILULIUMA_CHAPTER_HISTORY_PARA_3">
+			<Text>Suppiluliuma married a sister to the Hayasan king Hukkana, and his daughter Muwatti to Maskhuiluwa of the Arzawan state Mira. He also married a Babylonian princess and retook Arzawan territory as far as Hapalla. His most permanent victory was against the Mitanni kingdom, which he reduced to a client state under his son-in-law Shattiwazza. He was also a master builder of large stone structures decorated with stone reliefs. It was during his reign that concepts of the sacred nature of royal leaders developed. Suppiluliuma then took advantage of the tumultuous reign of the Pharaoh Akhenaten, and seized control of Egyptian territory in Syria, inciting many Egyptian vassals to revolt. His success encouraged the widow (who is called Dakhamunzu in the annals) of the Egyptian king Nibhururiya (usually identified with Tutankhamun) to write to him, asking him to send one of his sons to be her husband and rule Egypt, since she had no heir and was on the verge of being forced to marry "a servant", usually thought to be the Egyptian general Horemheb or her late husband's vizier Ay. Suppiluliuma dispatched an ambassador to Egypt to investigate; he reported that the situation was accurately described, and the king decided to take advantage of this windfall; unfortunately, Prince Zannanza died on the way, and the marriage alliance never was consummated. Angry letters were exchanged between Suppiluliuma and the Pharaoh Ay, who had assumed the Egyptian throne, over the circumstances of Zannanza's death. Suppililiuma was furious at this turn of events and unleashed his armies against Egypt's vassal states in Canaan and Northern Syria, capturing much territory. Unfortunately, many of the Egyptian prisoners carried a plague which would eventually ravage the Hittite heartland and lead to the deaths of both Suppiluliuma I and his successor, Arnuwanda II.</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_LR_SUPPILULIUMA">
+			<Text>Suppiluliuma I, you will restore the Hittite empire to his former glory, taking back the lands that were taken from your people. And then, you will defiance the great powers from your time to write your name on the anals from history.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Yes, this pleases us. Our two nations will surely benefit from our friendship.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>It is too early to make such a commitment.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We are pleased to consider you an esteemed friend. We hope the feeling is mutual…</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>You have been an excellent ally.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>How unfortunate.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We will defend ourselves against this threat.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>This is necessary to defend our sovereignty.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>This is just a step back.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>This is just a step back.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We have received your trade delegation and you may rest assured that we will treat them with the dignity they deserve. </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>No.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Greetings. We have sent an envoy on behalf of the People of the Hittite Empire. We hope they are well received.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>This disrespect will not be tolerated.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We can't be just observant of your tyranny. (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Greetings. I am Suppiluliuma I, the Great King of the the Hittites.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>It is our distinct privilege to extend to you an invitation to visit our country.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Agree.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>In the interest of our political relationship, we would like to know more about your capital… in exchange for information on ours, of course.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We receive you with pleasure.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Your army is an example of modernity and power.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_LR_SUPPILULIUMA_REASON_ANY">
+			<Text>(You have high sciende and a big army)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>You don't care about the development of your people.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_LR_SUPPILULIUMA_REASON_ANY">
+			<Text>(You don't have high science or a big army)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>On behalf of the people of The Hittite Empire, I accept.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>No.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We cannot but think that an agreement can be reached to our mutual satisfaction.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>In our grateful acknowledgment of a shared wish for peace we accept your forces among our own.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>For the safety of my people, I must unfortunately deny your request. I do hope you can understand.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>We humbly request access for our soldiers to pass through your domain. What do you say?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_LR_SUPPILULIUMA_ANY">
+			<Text>Your army is not welcome at our borders. Remove them at once.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>

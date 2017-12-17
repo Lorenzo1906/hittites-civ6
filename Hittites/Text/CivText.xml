@@ -2,7 +2,7 @@
 <GameData>
 	<BaseGameText>
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_NAME">
-			<Text>Hittite Empire</Text>
+			<Text>Hatti</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_DESCRIPTION">
@@ -11,6 +11,22 @@
 
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_ADJECTIVE">
 			<Text>Hittite</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_LOCATION" >
+			<Text>North-central Anatolia</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_SIZE" >
+			<Text>Approximately the size of Turkey, Syria and Lebanon</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_POPULATION" >
+			<Text>Unknown</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVINFO_LR_HITTITES_CAPITAL" >
+			<Text>Hattusa</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME" >
@@ -32,21 +48,21 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LR_THREE_MAN_CHARIOT_CHAPTER_HISTORY_PARA_1">
 			<Text>The Hittite arm of decision was its chariotry. The chariot’s role was to close quickly with the enemy infantry, delivering maximum shock, then to dismount and fight as heavy infantry. The Hittite machine was heavier than the Egyptian chariot and had its axle positioned in the center of the carrying platform. This arrangement reduced speed and stability but made it possible for the machine to carry a crew of three. The crew was armed with the six-foot-long stabbing spear designed not to be thrown but to be used as a lance while mounted and as an infantry weapon when dismounted. The Hittites used their chariots as mounted heavy infantry, and they were the key to the success of the Hittite army fighting in open terrain.</Text>
 		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LR_LAHHA_CHAPTER_HISTORY_PARA_1">
+			<Text>The same Hittite word, lahha, denoted a military campaign and a commercial trip. Only the context can show which is intended in any given occurrence. In law, provision is made for deciding whether or not compensation must be given to the heirs of a man who was hired by another to go on a lahha- and died on the journey. Of course, death on a military campaign would be quite common. But in view of the threat of attack on the road by bandits, the death of one hired to go on an international trade journey is also possible</Text>
+		</Row>
 		
-		<Row Tag="LOC_CIVINFO_LR_HITTITES_LOCATION" >
-			<Text>North-central Anatolia</Text>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LR_LAHHA_CHAPTER_HISTORY_PARA_2">
+			<Text>From the Hittite laws, it is clear that merchants were placed under the special protection of the state. It has been claimed that the merchants mentioned in these laws were not necessarily Hittites: that the protection may have been extended to all merchants allowed by the king to travel and trade within his domain. Although this may fairly be claimed of the wording in the Old Hittite recension, the attempt to make it fit the expanded wording of the New Hittite copies is less persuasive. If, therefore, it be assumed that the wording of the Old Hittite witness intended merchants of any nationality, the explicit wording “a merchant of Hatti” in the New Hittite version opens up the possibility that an initially broader commitment of the crown was later limited to Hittite merchants.</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVINFO_LR_HITTITES_SIZE" >
-			<Text>Approximately the size of Turkey, Syria and Lebanon</Text>
+		<Row Tag="LOC_UNIT_LR_HITTITES_LAHHA_UNIT_NAME" >
+			<Text>Lahha</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVINFO_LR_HITTITES_POPULATION" >
-			<Text>Unknown</Text>
-		</Row>
-
-		<Row Tag="LOC_CIVINFO_LR_HITTITES_CAPITAL" >
-			<Text>Hattusa</Text>
+		<Row Tag="LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION" >
+			<Text>Hittite unique trader unit. Can't be plundered.</Text>
 		</Row>
 
 		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_1">
@@ -163,6 +179,14 @@
 
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_CITY_20">
 			<Text>Kummanni</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LR_HITTITES_CHAPTER_HISTORY_PARA_1" >
+			<Text>The Hittites were an Ancient Anatolian people who established an empire centered on Hattusa in north-central Anatolia around 1600 BC. This empire reached its height during the mid-14th century BC under Suppiluliuma I, when it encompassed an area that included most of Anatolia as well as parts of the northern Levant and Upper Mesopotamia. Between the 15th and 13th centuries BC the Hittite Empire came into conflict with the Egyptian Empire, Middle Assyrian Empire and the empire of the Mitanni for control of the Near East. The Assyrians eventually emerged as the dominant power and annexed much of the Hittite empire, while the remainder was sacked by Phrygian newcomers to the region. After c. 1180 BC, during the Bronze Age collapse, the Hittites splintered into several independent "Neo-Hittite" city-states, some of which survived until the 8th century BC before succumbing to the Neo-Assyrian Empire.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LR_HITTITES_CHAPTER_HISTORY_PARA_2" >
+			<Text>The history of the Hittite civilization is known mostly from cuneiform texts found in the area of their kingdom, and from diplomatic and commercial correspondence found in various archives in Assyria, Babylonia, Egypt and the Middle East, the decipherment of which was also a key event in the history of Indo-European linguistics. The Hittite military made successful use of chariots, and although belonging to the Bronze Age, the Hittites were the forerunners of the Iron Age, developing the manufacture of iron artifacts from as early as the 18th century BC; at this time, gifts from the "man of Burushanda" of an iron throne and an iron sceptre to the Kaneshite king Anitta were recorded in the Anitta text inscription.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>
