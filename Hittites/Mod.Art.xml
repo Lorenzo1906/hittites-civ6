@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
@@ -8,6 +9,7 @@
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
+				<Element text="Units.artdef" />
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -271,7 +273,9 @@
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
 			</relativeArtDefPaths>
-			<libraryDependencies/>
+			<libraryDependencies>
+				<Element text="Landmark" />
+			</libraryDependencies>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
@@ -319,6 +323,7 @@
 		<Element>
 			<consumerName text="LeaderFallback"/>
 			<relativeArtDefPaths>
+				<Element text="FallbackLeaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderFallback"/>
@@ -455,6 +460,7 @@
 		<Element>
 			<libraryName text="LeaderFallback"/>
 			<relativePackagePaths>
+				<Element text="LeaderFallbacks"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -545,6 +551,8 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
+				<Element text="UI/Icons"/>
+				<Element text="UILeaders"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -580,5 +588,3 @@
 		</Element>
 	</requiredGameArtIDs>
 </AssetObjects::GameArtSpecification>
-
- 

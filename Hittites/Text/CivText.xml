@@ -2,7 +2,7 @@
 <GameData>
 	<BaseGameText>
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_NAME">
-			<Text>Hatti</Text>
+			<Text>Hittites</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LR_HITTITES_DESCRIPTION">

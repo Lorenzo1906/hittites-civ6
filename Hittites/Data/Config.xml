@@ -8,14 +8,14 @@
 			<CivilizationIcon>ICON_CIVILIZATION_POLAND</CivilizationIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LR_HITTITES_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_POLAND</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LR_HITTITES</CivilizationAbilityIcon>
 			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
 			<LeaderName>LOC_LEADER_LR_SUPPILULIUMA_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_JADWIGA</LeaderIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_JADWIGA</LeaderAbilityIcon>
-			<Portrait>LEADER_JADWIGA_BACKGROUND</Portrait>
+			<Portrait>LeaderPortrait</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
@@ -36,7 +36,7 @@
 			<Type>UNIT_LR_LAHHA</Type>
 			<Name>LOC_UNIT_LR_HITTITES_LAHHA_UNIT_NAME</Name>
 			<Description>LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION</Description>
-			<Icon>ICON_IMPROVEMENT_OUTBACK_STATION</Icon>
+			<Icon>ICON_UNIT_LR_LAHHA</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>

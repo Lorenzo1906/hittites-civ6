@@ -19,11 +19,11 @@
 	</LeaderQuotes>
 
 	<LoadingInfo>
-		<Row LeaderType="LEADER_LR_SUPPILULIUMA" ForegroundImage="MoraPorrasForeground.dds" EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
+		<Row LeaderType="LEADER_LR_SUPPILULIUMA" ForegroundImage="SuppiluliumaForeground.dds" EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="0"/>
 	</LoadingInfo>
 
 	<DiplomacyInfo>
-		<Row Type="LEADER_LR_SUPPILULIUMA" BackgroundImage="DiplomacyBackground.dds"/>
+		<Row Type="LEADER_LR_SUPPILULIUMA" BackgroundImage="SuppiluliumaDiplomacyBackground.dds"/>
 	</DiplomacyInfo>
 
 	<LeaderTraits>
