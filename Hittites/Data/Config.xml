@@ -11,10 +11,10 @@
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LR_HITTITES</CivilizationAbilityIcon>
 			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
 			<LeaderName>LOC_LEADER_LR_SUPPILULIUMA_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_JADWIGA</LeaderIcon>
+			<LeaderIcon>ICON_LEADER_LR_SUPPILULIUMA</LeaderIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_JADWIGA</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_LR_SUPPILULIUMA</LeaderAbilityIcon>
 			<Portrait>LeaderPortrait</Portrait>
 		</Row>
 	</Players>
@@ -26,7 +26,7 @@
 			<Type>UNIT_LR_THREE_MAN_CHARIOT</Type>
 			<Name>LOC_UNIT_LR_HITTITES_UNIT_NAME</Name>
 			<Description>LOC_UNIT_LR_HITTITES_UNIT_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_DIGGER</Icon>
+			<Icon>ICON_UNIT_LR_THREE_MAN_CHARIOT</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
 		<Row>

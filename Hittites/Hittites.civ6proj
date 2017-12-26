@@ -17,8 +17,8 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Hittites</AssemblyName>
     <RootNamespace>Hittites</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/LeaderPortrait.dds</File><File>Textures/LeaderPortrait.tex</File><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File><File>Textures/SuppiluliumaFallback.dds</File><File>Textures/SuppiluliumaFallback.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Config.xml</File><File>Data/Leader.xml</File><File>Data/Civ.xml</File><File>Data/Unit.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/LeaderPortrait.dds</File><File>Textures/LeaderPortrait.tex</File><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File><File>Textures/SuppiluliumaFallback.dds</File><File>Textures/SuppiluliumaFallback.tex</File><File>Textures/Leader256.dds</File><File>Textures/Leader256.tex</File><File>Textures/Leader32.dds</File><File>Textures/Leader32.tex</File><File>Textures/Leader45.dds</File><File>Textures/Leader45.tex</File><File>Textures/Leader48.dds</File><File>Textures/Leader48.tex</File><File>Textures/Leader50.dds</File><File>Textures/Leader50.tex</File><File>Textures/Leader55.dds</File><File>Textures/Leader55.tex</File><File>Textures/Leader64.dds</File><File>Textures/Leader64.tex</File><File>Textures/Leader80.dds</File><File>Textures/Leader80.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Config.xml</File><File>Data/Leader.xml</File><File>Data/Civ.xml</File><File>Data/Unit.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File><File>Textures/Leader256.dds</File><File>Textures/Leader256.tex</File><File>Textures/Leader32.dds</File><File>Textures/Leader32.tex</File><File>Textures/Leader45.dds</File><File>Textures/Leader45.tex</File><File>Textures/Leader48.dds</File><File>Textures/Leader48.tex</File><File>Textures/Leader50.dds</File><File>Textures/Leader50.tex</File><File>Textures/Leader55.dds</File><File>Textures/Leader55.tex</File><File>Textures/Leader64.dds</File><File>Textures/Leader64.tex</File><File>Textures/Leader80.dds</File><File>Textures/Leader80.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -38,6 +38,9 @@
     <Content Include="ArtDefs\FallbackLeaders.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Civ.xml">
       <SubType>Content</SubType>
     </Content>
@@ -51,6 +54,60 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Data\Unit.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SQL\tsl.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SQL\tslData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Leader80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LeaderPortrait.dds">
