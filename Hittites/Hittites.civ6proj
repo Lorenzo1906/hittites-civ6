@@ -2,13 +2,13 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Hittites</Name>
+    <Name>Suppiluliuma I leads The Hittites</Name>
     <Guid>8841c8dc-b60c-4145-8b73-95a3e5c6644e</Guid>
     <ProjectGuid>476bfd49-ec4e-4c79-b4e0-003b0c19009a</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Hittites</Teaser>
-    <Description>Hittites</Description>
-    <Authors>DizzyLlama</Authors>
+    <Teaser>Suppiluliuma I leads The Hittites</Teaser>
+    <Description>Adds the Hittite Civilization with Suppiluliuma I as his leader. Note: Also remove Hattusa as city state and replace it with "".</Description>
+    <Authors>Lorenzo1906</Authors>
     <SpecialThanks>
     </SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -17,7 +17,7 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>Hittites</AssemblyName>
     <RootNamespace>Hittites</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/LeaderPortrait.dds</File><File>Textures/LeaderPortrait.tex</File><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File><File>Textures/SuppiluliumaFallback.dds</File><File>Textures/SuppiluliumaFallback.tex</File><File>Textures/Leader256.dds</File><File>Textures/Leader256.tex</File><File>Textures/Leader32.dds</File><File>Textures/Leader32.tex</File><File>Textures/Leader45.dds</File><File>Textures/Leader45.tex</File><File>Textures/Leader48.dds</File><File>Textures/Leader48.tex</File><File>Textures/Leader50.dds</File><File>Textures/Leader50.tex</File><File>Textures/Leader55.dds</File><File>Textures/Leader55.tex</File><File>Textures/Leader64.dds</File><File>Textures/Leader64.tex</File><File>Textures/Leader80.dds</File><File>Textures/Leader80.tex</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/LeaderPortrait.dds</File><File>Textures/LeaderPortrait.tex</File><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File><File>Textures/SuppiluliumaFallback.dds</File><File>Textures/SuppiluliumaFallback.tex</File><File>Textures/Leader256.dds</File><File>Textures/Leader256.tex</File><File>Textures/Leader32.dds</File><File>Textures/Leader32.tex</File><File>Textures/Leader45.dds</File><File>Textures/Leader45.tex</File><File>Textures/Leader48.dds</File><File>Textures/Leader48.tex</File><File>Textures/Leader50.dds</File><File>Textures/Leader50.tex</File><File>Textures/Leader55.dds</File><File>Textures/Leader55.tex</File><File>Textures/Leader64.dds</File><File>Textures/Leader64.tex</File><File>Textures/Leader80.dds</File><File>Textures/Leader80.tex</File><File>Textures/Hittites45.dds</File></ImportFiles></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><File>Data/Config.xml</File><File>Data/Leader.xml</File><File>Data/Civ.xml</File><File>Data/Unit.xml</File><File>SQL/tsl.sql</File><File>SQL/tslData.xml</File></UpdateDatabase><UpdateText id="Text"><File>Text/CivText.xml</File><File>Text/LeaderText.xml</File></UpdateText><UpdateIcons id="Icons"><File>Data/Icons.xml</File></UpdateIcons><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="ImportFiles"><File>Textures/SuppiluliumaForeground.dds</File><File>Textures/SuppiluliumaDiplomacyBackground.dds</File><File>Textures/Leader256.dds</File><File>Textures/Leader256.tex</File><File>Textures/Leader32.dds</File><File>Textures/Leader32.tex</File><File>Textures/Leader45.dds</File><File>Textures/Leader45.tex</File><File>Textures/Leader48.dds</File><File>Textures/Leader48.tex</File><File>Textures/Leader50.dds</File><File>Textures/Leader50.tex</File><File>Textures/Leader55.dds</File><File>Textures/Leader55.tex</File><File>Textures/Leader64.dds</File><File>Textures/Leader64.tex</File><File>Textures/Leader80.dds</File><File>Textures/Leader80.tex</File></ImportFiles></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -60,6 +60,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="SQL\tslData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hittites45.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Leader256.dds">

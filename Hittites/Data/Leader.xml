@@ -62,23 +62,23 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_LR_SUPPILULIUMA</TraitType>
-			<ModifierId>TRAIT_LR_SUPPILULIUMA_FREE_MELEE_UNIT</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
 		</Row>
 	</TraitModifiers>
 
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_LR_SUPPILULIUMA_FREE_MELEE_UNIT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
-			<Permanent>1</Permanent>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
 		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_LR_SUPPILULIUMA_FREE_MELEE_UNIT</ModifierId>
-			<Name>UnitPromotionClassType</Name>
-			<Value>PROMOTION_CLASS_MELEE</Value>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>SLOT_ECONOMIC</Value>
 		</Row>
 	</ModifierArguments>
 

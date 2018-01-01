@@ -16,6 +16,18 @@
 			 RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
 
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES"
+			 TerrainType="TERRAIN_PLAINS_HILLS"
+			 Tier="3" />
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES"
+			 TerrainType="TERRAIN_GRASS_HILLS"
+			 Tier="3" />
+		<Row CivilizationType="CIVILIZATION_LR_HITTITES"
+			 TerrainType="TERRAIN_DESERT_HILLS"
+			 Tier="3" />
+	</StartBiasTerrains>
+
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_LR_HITTITES" CitizenName="LOC_CITIZEN_LR_HITTITES_MALE_1" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_LR_HITTITES" CitizenName="LOC_CITIZEN_LR_HITTITES_MALE_2" Female="0"/>
@@ -78,7 +90,11 @@
 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_LR_HITTITES</TraitType>
-			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LR_HITTITES</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER_2</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_LR_LAHHA</TraitType>
@@ -88,18 +104,25 @@
 
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row>
-		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_UNIT_LR_LAHHA_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
 		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
-		<Row ModifierId="TRAIT_CIVILIZATION_LR_HITTITES_ECONOMIC_GOVERNMENT_SLOT" Name="GovernmentSlotType" Type="ARGTYPE_IDENTITY" Value="SLOT_ECONOMIC"/>
-		<Row ModifierId="TRAIT_CIVILIZATION_UNIT_LR_LAHHA_MODIFIER" Name="DomainType" Type="ARGTYPE_IDENTITY" Value="DOMAIN_SEA"/>
 		<Row ModifierId="TRAIT_CIVILIZATION_UNIT_LR_LAHHA_MODIFIER" Name="DomainType" Type="ARGTYPE_IDENTITY" Value="DOMAIN_LAND"/>
+		<Row ModifierId="TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER" Name="Ignore" Type="ARGTYPE_IDENTITY" Value="1"/>
+		<Row ModifierId="TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER" Name="Type" Type="ARGTYPE_IDENTITY" Value="HILLS"/>
+		<Row ModifierId="TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER_2" Name="YieldType" Type="ARGTYPE_IDENTITY" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="TRAIT_CIVILIZATION_LR_HITTITES_MODIFIER_2" Name="Amount" Type="ARGTYPE_IDENTITY" Value="2"/>
 	</ModifierArguments>
+
 </GameData>

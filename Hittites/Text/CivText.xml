@@ -30,11 +30,11 @@
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME" >
-			<Text>The Great King</Text>
+			<Text>The New Kingdom</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LR_HITTITES_DESCRIPTION" >
-			<Text>Grants an additional Economic policy slot in any government.</Text>
+			<Text>All units ignore movement penalty on hills, also each trade route produces +2 [ICON_Science]</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LR_HITTITES_UNIT_NAME" >
@@ -62,7 +62,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION" >
-			<Text>Hittite unique trader unit. Can't be plundered.</Text>
+			<Text>Hittite unique trader unit. Can't be plundered by barbarians.</Text>
 		</Row>
 
 		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_1">
