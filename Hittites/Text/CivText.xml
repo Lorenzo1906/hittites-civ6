@@ -62,7 +62,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION" >
-			<Text>Hittite unique trader unit. Can't be plundered by barbarians.</Text>
+			<Text>Hittite unique trader unit. Can't be plundered.</Text>
 		</Row>
 
 		<Row Tag="LOC_CITIZEN_LR_HITTITES_MALE_1">
