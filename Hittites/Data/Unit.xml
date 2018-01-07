@@ -44,6 +44,7 @@
 			 IgnoreMoves="true" 
 			 MakeTradeRoute="true" 
 			 PrereqCivic="CIVIC_FOREIGN_TRADE"
+			 CanRetreatWhenCaptured="true"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_LR_LAHHA"/>
 	</Units>
 
