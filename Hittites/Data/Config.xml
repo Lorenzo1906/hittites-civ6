@@ -34,6 +34,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_LR_SUPPILULIUMA</LeaderAbilityIcon>
 			<PortraitBackground>LeaderPortrait</PortraitBackground>
 		</Row>
+		<!-- Expansion 2 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LR_HITTITES</CivilizationType>
+			<CivilizationName>LOC_CIVILIZATION_LR_HITTITES_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LR_HITTITES_COLOR</CivilizationIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LR_HITTITES_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LR_HITTITES_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LR_HITTITES</CivilizationAbilityIcon>
+			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
+			<LeaderName>LOC_LEADER_LR_SUPPILULIUMA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_LR_SUPPILULIUMA</LeaderIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_LR_SUPPILULIUMA_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_LR_SUPPILULIUMA_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_LR_SUPPILULIUMA</LeaderAbilityIcon>
+			<PortraitBackground>LeaderPortrait</PortraitBackground>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<Row>
@@ -77,10 +94,26 @@
 			<Icon>ICON_UNIT_LR_LAHHA</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
+		<!-- Expansion 2 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LR_HITTITES</CivilizationType>
+			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
+			<Type>UNIT_LR_THREE_MAN_CHARIOT</Type>
+			<Name>LOC_UNIT_LR_HITTITES_UNIT_NAME</Name>
+			<Description>LOC_UNIT_LR_HITTITES_UNIT_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_LR_THREE_MAN_CHARIOT</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LR_HITTITES</CivilizationType>
+			<LeaderType>LEADER_LR_SUPPILULIUMA</LeaderType>
+			<Type>UNIT_LR_LAHHA</Type>
+			<Name>LOC_UNIT_LR_HITTITES_LAHHA_UNIT_NAME</Name>
+			<Description>LOC_UNIT_LR_HITTITES_LAHHA_UNIT_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_LR_LAHHA</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 	</PlayerItems>
-
-	<MomentIllustrations>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LR_THREE_MAN_CHARIOT" Texture="Moment_UniqueUnit_Australia.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LR_LAHHA" Texture="Moment_Infrastructure_Australia.dds"/>
-	</MomentIllustrations>
 </GameData>
