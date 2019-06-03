@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Rivers -->
+		<Row Tag="LOC_NAMED_LR_RIVER_KIZILIRMAK_NAME" Language="en_US">
+			<Text>Kızılırmak River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_DELICE_NAME" Language="en_US">
+			<Text>Delice River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_AMNIAS_NAME" Language="en_US">
+			<Text>Amnias River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_RIVER_DEVREZ_NAME" Language="en_US">
+			<Text>Devrez River</Text>
+		</Row>
+		<!-- Volcanoes -->
+		<Row Tag="LOC_NAMED_LR_ACIGOL_VOLCANO_NAME" Language="en_US">
+			<Text>Acıgöl–Nevşehir</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_ERCIYES_VOLCANO_NAME" Language="en_US">
+			<Text>Mount Erciyes</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_GOLLU_VOLCANO_NAME" Language="en_US">
+			<Text>Göllü Dağ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_HASAN_VOLCANO_NAME" Language="en_US">
+			<Text>Mount Hasan</Text>
+		</Row>
+		<!-- Mountain -->
+		<Row Tag="LOC_NAMED_LR_TAURUS_MOUNTAIN_NAME" Language="en_US">
+			<Text>Taurus Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_ANTI_TAURUS_MOUNTAIN_NAME" Language="en_US">
+			<Text>Anti-Taurus Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_KOROGLU_MOUNTAIN_NAME" Language="en_US">
+			<Text>Köroğlu Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LR_KARADAG_MOUNTAIN_NAME" Language="en_US">
+			<Text>Mount Karadağ</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
